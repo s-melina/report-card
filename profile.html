@@ -1,0 +1,115 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>profile</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<nav id="nav" class="navbar ">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button type="button" class="btn btn-outline-primary">login</button>
+    </div>
+</nav>
+<div class="container-md">
+    <div class="card" style="margin-top: 15px">
+    <div class="card-header">
+        Profile
+    </div>
+    <div class="card-body">
+
+        <div class="identifier row">
+            <div class="col-6 mb-4">
+            <img src="flat-design-profile-icon-set_23-2149499286.jpg" class="img-thumbnail" alt="">
+            </div>
+
+            <div class="col-6 mb-3">
+                <label for="inputname" class="form-label">Name</label>
+                <input type="text" class="form-control mb-3" id="inputname">
+
+                <label for="inputlastname" class="form-label">LastName</label>
+                <input type="text" class="form-control mb-3" id="inputlastname">
+
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control mb-3" id="exampleFormControlInput1">
+
+                    <div class="col-auto">
+                        <label for="inputPassword6" class="col-form-label">Password</label>
+                    </div>
+                    <div class="col-auto mb-3">
+                        <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                    </div>
+            </div>
+            <input class="form-control w-100" type="file" id="formFileMultiple" multiple>
+        </div>
+    </div>
+    <div class="card-footer">
+        <!-- Button trigger modal -->
+        <button type="button" id="btn-reportcard" class="btn w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Click to see & confirm your report card!
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">REPORT CARD</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <ol class="list-group list-group-numbered">
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Math</div>
+                                    Not confirmed!
+                                </div>
+                                <span class="badge text-bg-primary rounded-pill">19</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Physic</div>
+                                    Not confirmed!
+                                </div>
+                                <span class="badge text-bg-primary rounded-pill">18</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Programing</div>
+                                    Not confirmed!
+                                </div>
+                                <span class="badge text-bg-primary rounded-pill">19.5</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Data structure</div>
+                                    Not confirmed!
+                                </div>
+                                <span class="badge text-bg-primary rounded-pill">17</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-start">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">English</div>
+                                    Not confirmed!
+                                </div>
+                                <span class="badge text-bg-primary rounded-pill">20</span>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary w-100">CONFIRM!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</body>
+</html>

@@ -1,0 +1,16 @@
+*{
+    font-family: Bahnschrift;
+}
+#nav {
+    background-color: #babbbc;
+}
+#btn-reportcard{
+    background-color: #babbbc;
+    color: black;
+    border-radius: 4px;
+}
+#btn-reportcard:hover{
+    background-color: #6ea8fe;
+    color: black;
+    border-radius: 4px;
+}
